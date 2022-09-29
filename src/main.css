@@ -29,3 +29,6 @@ nav{
     height: 160px;
     width: 100%;
 }
+.swiper{
+    padding: 32px 0 !important;
+}

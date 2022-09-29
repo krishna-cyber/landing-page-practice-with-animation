@@ -47,8 +47,30 @@
   <!-- svg background image -->
   <img class="svg -mt-1" src="./images/header-frame.svg" alt="">
   <!-- spinner using swiper js -->
-  <div class="spinner">
-    
+  <div class="spinner mt-8">
+    <div class="swiper mySwiper container mx-auto w-3/5">
+      <div class="swiper-wrapper mx-auto flex items-center ">
+        <div class="swiper-slide"><img src="./images/customer-logo-1.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/customer-logo-2.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/customer-logo-3.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/customer-logo-4.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/customer-logo-5.png" alt=""></div>
+        <div class="swiper-slide"><img src="./images/customer-logo-6.png" alt=""></div>
+      </div>
   </div>
 </body>
+
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 50,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        }
+      });
+    </script>
+  
 </html>

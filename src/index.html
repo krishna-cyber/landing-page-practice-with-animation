@@ -6,25 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="stylesheet" href="./main.css">
+    <!-- swiper js CDN links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Landing page practice</title>
 </head>
 <body>
   <header id="header" class=" bg-primary">
-    <nav class=" flex justify-between px-20 text-white py-4 font-bold">
+    <nav class=" flex items-center justify-between px-20 text-white py-4 font-bold">
         <div class="logo">
             <h2 class=" text-2xl cursor-pointer">Hamro Vlog</h2>
         </div>
-        <ul class=" flex uppercase gap-8">
+        <ul class=" flex items-center uppercase gap-8 text-sm">
             <li class="link cursor-pointer hover:text-white active:text-white">Home</li>
             <li class="link cursor-pointer hover:text-white active:text-white">Features</li>
             <li class="link cursor-pointer hover:text-white active:text-white">Details</li>
             <li class="link cursor-pointer hover:text-white active:text-white">Video</li>
             <li class="link cursor-pointer hover:text-white active:text-white">Pricing</li>
-            <button>Log in</button>
+            <li class=" link btn rounded-full px-6 py-1"><a href="google.com">Log in</a></li>
         </ul>
     </nav>
     <section>
-
+        <div class="container mx-auto px-20">
+            <div class="flex items-center justify-between py-20">
+                <div class="left">
+                    <h1 class="text-5xl font-bold text-white">Hamro Vlog</h1>
+                    <p class="text-white text-lg py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <button class="btn rounded-full px-6 py-1">Get Started</button>
+                </div>
+                <div class="right">
+                    <img src="./images/hero.png" alt="hero">
+                </div>
+            </div>
+        </div>
     </section>
   </header>
 </body>

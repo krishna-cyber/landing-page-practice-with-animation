@@ -9,6 +9,10 @@
     <!-- swiper js CDN links -->
     <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome js file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Landing page practice</title>
 </head>
 <body>
@@ -29,7 +33,7 @@
     <section class=" bg-primary">
       <div class="container mx-auto flex px-14 pt-24 justify-around">
         <div class="content gap-8 flex flex-col text-white justify-center pl-14 w-2/5 px-6">
-          <h1 class="font-bold text-6xl">
+          <h1 class="font-bold text-5xl">
             SaaS App HTML Landing Page
           </h1>
           <p class=" text-lg">
@@ -85,10 +89,56 @@
   </section>
   
   <!-- pricing section -->
-  <section id="pricing">
-    
+  <section id="pricing" class="container mx-auto py-8 mt-8">
+    <h3 class=" text-primary text-center font-medium">PRICING</h3>
+    <h2 class=" font-bold text-3xl text-center p-7">Pricing Options Table</h2>
+    <div class="price-plans flex justify-center gap-8">
+      <div class="card w-1/4">
+        <h3 class=" text-center font-bold text-xl text-primary mt-7 ">BASIC</h3>
+        <h2 class=" font-bold text-5xl text-center p-4 f items-center"><span class="text-xl">$</span>Free</h2>
+        <p class=" text-center text-slate-400">7 Days Trial</p>
+        <div class="features py-7 flex justify-center">
+          <ul class="fa-ul">
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>Email Marketing Module</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>User Control Management</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-xmark fa-lg"></i></i></span>List Building And Cleaning</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-xmark fa-lg"></i></i></span>Collected Data Reports</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-xmark fa-lg"></i></i></span>Planning And Evaluation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card w-1/4">
+        <h3 class=" text-center font-bold text-xl text-primary mt-7">STANDARD</h3>
+        <h2 class=" font-bold text-5xl text-center p-4"><span class="text-xl">$</span>29.99</h2>
+        <p class=" text-center text-slate-400">Monthly</p>
+        <div class=" py-7 features flex justify-center">
+          <ul class="fa-ul">
+            <li class=" pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>Email Marketing Module</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>User Control Management</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></i></span>List Building And Cleaning</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-xmark fa-lg"></i></i></span>Collected Data Reports</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-xmark fa-lg"></i></i></span>Planning And Evaluation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card w-1/4">
+        <h3 class=" text-center font-bold text-xl text-primary mt-7">PREMIUM</h3>
+        <h2 class=" font-bold text-5xl text-center p-4"><span class="text-xl">$</span>39.99</h2>
+        <p class=" text-center text-slate-400">Monthly</p>
+        <div class="features py-7 flex justify-center">
+          <ul class="fa-ul">
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>Email Marketing Module</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></span>User Control Management</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></i></span>List Building And Cleaning</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></i></span>Collected Data Reports</li>
+            <li class="pt-2"><span class="fa-li"><i class="fa-solid fa-check fa-lg"></i></i></span>Planning And Evaluation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
 </body>
 <script defer src="./scripts/index.js"></script>
+
 </html>

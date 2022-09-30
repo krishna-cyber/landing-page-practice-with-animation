@@ -32,3 +32,22 @@ nav{
 .swiper{
     padding: 32px 0 !important;
 }
+
+.card{
+    border-radius: 5px;
+    border:1px solid #ccd3dfff;
+}
+.card h2{
+    color:rgb(57, 68, 77)
+}
+.features{
+    margin: 20px auto;
+    width: fit-content;
+    border-top: 2px solid #b7b3b3;
+}
+.fa-check{
+    color: #5f4dee;
+}
+.fa-xmark{
+    color: #0e0e0f;
+}

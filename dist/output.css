@@ -600,6 +600,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +636,10 @@ video {
 
 .w-1\/4 {
   width: 25%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .cursor-pointer {
@@ -668,6 +676,10 @@ video {
 
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-full {
@@ -731,14 +743,29 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-11 {
-  padding-top: 2.75rem;
-  padding-bottom: 2.75rem;
-}
-
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-10 {
@@ -840,6 +867,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(95 77 238 / var(--tw-text-opacity));
 }
 
 .active\:text-white:active {

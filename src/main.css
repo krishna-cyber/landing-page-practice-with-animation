@@ -66,7 +66,41 @@ nav{
 }
 .subscribe{
     background:#f3f7fdff;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
+.input{
+    width: 50%;
+    position: relative;
+}
+ .input input{
+    padding: 10px;
+    outline: none;
+    border:  1px solid black;
+    border-radius: 5px;
+   
+ }
+ /* float label  */
+    .input input:focus ~ label,
+    .input input:active ~label{
+       top: -1px; 
+    }
+ .input label{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 10px;
+    
+ }
+ button{
+    background: #5f4dee;
+    border-radius: 999px;
+ }
+ .button{
+    width: 50%;
+ }
+ button:hover{
+    background: white;
+    border: 1px solid #5f4dee;
+ }

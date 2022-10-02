@@ -107,6 +107,7 @@ nav{
 
  .fa-circle{
     color: #5f4dee;
+    transition: all 0.6s ease;
  }
  .fa-stack:hover .fa-circle{
     color: whitesmoke;

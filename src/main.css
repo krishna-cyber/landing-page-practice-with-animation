@@ -109,6 +109,9 @@ nav{
     color: #5f4dee;
     transition: all 0.6s ease;
  }
+ .fa-stack{
+    cursor: pointer;
+ }
  .fa-stack:hover .fa-circle{
     color: whitesmoke;
  }
